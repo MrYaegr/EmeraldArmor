@@ -71,7 +71,7 @@ public class CraftingListener implements Listener {
             return;
         }
 
-        // Create a copy of the normal result
+        // Create a copy of the normal results
         ItemStack output = result.clone();
 
         // Only apply enchant when emeralds are used
